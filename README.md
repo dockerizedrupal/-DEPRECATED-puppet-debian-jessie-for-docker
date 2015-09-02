@@ -5,7 +5,8 @@
     TMP="$(mktemp -d)" \
       && git clone https://github.com/dockerizedrupal/docker-puppet-debian-jessie.git "${TMP}" \
       && cd "${TMP}" \
-      && sudo docker build -t dockerizedrupal/puppet-debian-jessie:latest . \
+      $$ git checkout 1.0.1 \
+      && sudo docker build -t dockerizedrupal/puppet-debian-jessie:1.0.1 . \
       && cd -
 
 ## License
