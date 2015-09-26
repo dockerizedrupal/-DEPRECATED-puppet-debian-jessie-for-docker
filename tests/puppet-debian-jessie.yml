@@ -1,3 +1,0 @@
-puppet:
-  image: dockerizedrupal/puppet-debian-jessie:1.0.5
-  hostname: puppet
