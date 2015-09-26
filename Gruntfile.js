@@ -39,8 +39,8 @@ module.exports = function(grunt) {
           {
             expand: true,
             src: [
-              'README.md',
-              'tests/puppet-debian-jessie.yml'
+              'docker-compose.yml',
+              'README.md'
             ]
           }
         ]
