@@ -1,6 +1,8 @@
 # docker-puppet-debian-jessie
 
-An intermediate base Docker image for [dockerizedrupal/supervisor-debian-jessie](https://github.com/dockerizedrupal/docker-supervisor-debian-jessie) that is used in the [Dockerized Drupal](https://dockerizedrupal.com/) project.
+An intermediate base Docker image for [dockerizedrupal/supervisor-debian-jessie](https://github.com/dockerizedrupal/docker-supervisor-debian-jessie).
+
+This project is part of the [Dockerized Drupal](https://dockerizedrupal.com/) initiative.
 
 ## Run the container
 
