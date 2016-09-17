@@ -1,9 +1,9 @@
 {
-  "name": "docker-puppet-debian-jessie",
+  "name": "-DEPRECATED-puppet-debian-jessie-for-docker",
   "version": "1.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dockerizedrupal/docker-puppet-debian-jessie.git"
+    "url": "https://github.com/dockerizedrupal/-DEPRECATED-puppet-debian-jessie-for-docker.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,8 +1,10 @@
-> **Notice:** *This project is part of the [Dockerized Drupal](https://dockerizedrupal.com/) initiative.*
+# WARNING
 
-# docker-puppet-debian-jessie
+> **Notice:** *This project is deprecated. Read more about the reason why [here](https://github.com/dockerizedrupal/base-debian-jessie-for-docker/issues/3).*
 
-A base Docker image for [dockerizedrupal/supervisor-debian-jessie](https://github.com/dockerizedrupal/docker-supervisor-debian-jessie).
+# -DEPRECATED-puppet-debian-jessie-for-docker
+
+A base Docker image for [dockerizedrupal/supervisor-debian-jessie](https://github.com/dockerizedrupal/-DEPRECATED-supervisor-debian-jessie-for-docker).
 
 ## Run the container
 
@@ -14,7 +16,7 @@ A base Docker image for [dockerizedrupal/supervisor-debian-jessie](https://githu
 ## Build the image
 
     TMP="$(mktemp -d)" \
-      && git clone https://github.com/dockerizedrupal/docker-puppet-debian-jessie.git "${TMP}" \
+      && git clone https://github.com/dockerizedrupal/-DEPRECATED-puppet-debian-jessie-for-docker.git "${TMP}" \
       && cd "${TMP}" \
       && git checkout 1.1.1 \
       && sudo docker build -t dockerizedrupal/puppet-debian-jessie:1.1.1 . \
